@@ -1,8 +1,8 @@
 var animals = ["penguin","snake","red panda","big-foot"];
-var txt = "<ol>";
+var list1 = "<ol>";
 var animals.forEach(function(d))
 {
-  txt += "<li>"+d+"</li>";
+  list1 += "<li>"+d+"</li>";
 }
-txt += "</ol>";
-document.getElementById("txt").innerHTML = txt;
+list1 += "</ol>";
+document.getElementById("txt").innerHTML = list1;
